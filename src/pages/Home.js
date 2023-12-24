@@ -5,7 +5,7 @@ import "../assets/home.css"
 import NavBar from "../components/NavBar/index.js";
 
 // importing browserRouter
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 // importing pages
 import AboutMe from "./AboutMe.js";
@@ -14,10 +14,10 @@ import MartialArts from "./MartialArts.js";
 
 export default function Home() {
     return (
-        <Router>
-            <section id="page_home">
-                <div id="home_contents">
-                    <div id="home_margin">
+        <section id="page_home">
+            <div id="home_contents">
+                <div id="home_margin">
+                    <Router>
                         <div id="home_header" className="home_element">
                             <NavBar />
                         </div>
@@ -29,11 +29,11 @@ export default function Home() {
                                 <Route element={<div>You have reached an unknown page, somehow...</div>}/>
                             </Routes>
                         </div>
-                        <div id="home_footer" className="home_element"></div>
-                    </div>
+                    </Router>
+                    <div id="home_footer" className="home_element"></div>
                 </div>
-            </section>
-        </Router>
+            </div>
+        </section>
 
     )
 }
