@@ -8,7 +8,7 @@ export default function NavBar() {
     return (
         <section id="component_navbar">
             <div id="navbar_contents">
-                <Link to="/about" className="navbar_button">
+                <Link to="/" className="navbar_button">
                     <div>
                         <p>About Me</p>
                     </div>

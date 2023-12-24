@@ -18,10 +18,10 @@ export default function Home() {
                         </div>
                         <div id="home_main" className="home_element">
                             <Routes>
-                                <Route path="about" element={<div>HOME</div>}/>
+                                <Route exact path="/" element={<div>HOME</div>}/>
                                 <Route path="software" element={<div>SOFTWARE</div>}/>
                                 <Route path="martialarts" element={<div>MARTIAL ARTS</div>}/>
-                                <Route path="*" element={<div>NULL PAGE</div>}/>
+                                <Route element={<div>NULL PAGE</div>}/>
                             </Routes>
                         </div>
                         <div id="home_footer" className="home_element"></div>
