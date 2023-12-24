@@ -27,6 +27,9 @@
 
     color: white;
     font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
 }
 
 .navbar_button:hover {
