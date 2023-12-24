@@ -7,6 +7,11 @@ import NavBar from "../components/NavBar/index.js";
 // importing browserRouter
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+// importing pages
+import AboutMe from "./AboutMe.js";
+import Software from "./Software.js";
+import MartialArts from "./MartialArts.js";
+
 export default function Home() {
     return (
         <Router>
@@ -18,10 +23,10 @@ export default function Home() {
                         </div>
                         <div id="home_main" className="home_element">
                             <Routes>
-                                <Route exact path="/" element={<div>HOME</div>}/>
-                                <Route path="software" element={<div>SOFTWARE</div>}/>
-                                <Route path="martialarts" element={<div>MARTIAL ARTS</div>}/>
-                                <Route element={<div>NULL PAGE</div>}/>
+                                <Route exact path="/" element={<AboutMe />}/>
+                                <Route path="software" element={<Software />}/>
+                                <Route path="martialarts" element={<MartialArts />}/>
+                                <Route element={<div>You have reached an unknown page, somehow...</div>}/>
                             </Routes>
                         </div>
                         <div id="home_footer" className="home_element"></div>

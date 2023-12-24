@@ -1,0 +1,6 @@
+#page_aboutme {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+
+    background-color: lightcoral;
+}
