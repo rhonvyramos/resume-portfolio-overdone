@@ -1,0 +1,6 @@
+#page_software {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+
+    background-color: lightgreen;
+}
