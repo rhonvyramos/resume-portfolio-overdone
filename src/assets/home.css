@@ -34,6 +34,10 @@
 .home_element {
     background-color: lightblue;
     width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #home_header {
