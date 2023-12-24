@@ -24,9 +24,16 @@
 
     margin-left: 5px;
     margin-right: 5px;
-}
 
-.navbar_button p {
     color: white;
     font-weight: bold;
+}
+
+.navbar_button:hover {
+    cursor: pointer;
+}
+
+.navbar_button:active {
+    box-shadow: 3px 3px 3px black inset;
+    color: black;
 }

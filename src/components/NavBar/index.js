@@ -1,6 +1,9 @@
 import React from "react";
 import "./index.css";
 
+// importing Link
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
     return (
         <section id="component_navbar">

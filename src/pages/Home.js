@@ -4,6 +4,9 @@ import "../assets/home.css"
 // importing components
 import NavBar from "../components/NavBar/index.js";
 
+// importing browserRouter
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 export default function Home() {
     return (
         <section id="page_home">
