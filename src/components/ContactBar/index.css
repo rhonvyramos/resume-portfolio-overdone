@@ -22,7 +22,9 @@
     border-style: solid;
     padding: 5px;
 
-    transition: box-shadow 0.3s ease-in;
+    transition: box-shadow 0.3s ease-in, transform 0.3s ease-in;
+
+    color:black;
 }
 
 #contact_elements a {
@@ -34,12 +36,15 @@
 
 #contact_elements p:hover {
     box-shadow: 5px 5px 5px;
+    transform: translateY(-5px);
 }
 
 #contact_elements a:hover {
     text-decoration: none;
     color: inherit;
+}
 
-    transform: translateY(-5px);
+#contact_elements p:active {
+    background-color: darkblue;
 }
 
