@@ -4,6 +4,8 @@ import "../assets/software.css"
 
 // importing images
 import character_creator_prev from "../assets/character_creator_prev.png"
+import ufree_prev from "../assets/ufree_prev.png"
+import libelnews_prev from "../assets/libelnews_prev.png"
 
 export default function Software() {
     return(
@@ -16,7 +18,7 @@ export default function Software() {
                     <div id="software_projects">
                         <div className="project_box">
                             <div className="project_image">
-                                <img src={character_creator_prev} alt="apollo" height={"96px"} width={"96px"} />
+                                <img src={ufree_prev} alt="ufree" height={"96px"} width={"96px"} />
                             </div>
                             <div className="project_text">
                                 <p className="project_title">
@@ -29,7 +31,7 @@ export default function Software() {
                         </div>
                         <div className="project_box">
                             <div className="project_image">
-                                
+                                <img src={character_creator_prev} alt="charactercreate" height={"96px"} width={"96px"} />
                             </div>
                             <div className="project_text">
                                 <p className="project_title">
@@ -42,7 +44,7 @@ export default function Software() {
                         </div>
                         <div className="project_box">
                             <div className="project_image">
-                                
+                                <img src={libelnews_prev} alt="libel" height={"96px"} width={"96px"} />
                             </div>
                             <div className="project_text">
                                 <p className="project_title">
