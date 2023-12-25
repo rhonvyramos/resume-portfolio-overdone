@@ -3,4 +3,23 @@
     width: calc(100% - 10px);
 
     background-color: lightcoral;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.aboutme_content {
+    background-color: purple;
+    height: calc(100% - 10px);
+    width: calc(50% - 5px);
 }
