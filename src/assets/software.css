@@ -41,4 +41,34 @@
     margin-top: 5px;
 
     background-color: darkgreen;
+
+    display: flex;
+    justify-content: center;
+}
+
+.project_image {
+    width: 50%;
+    height: 100%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_text {
+    width: 50%;
+    height: 100%;
+}
+
+.project_box p {
+    margin: 5px;
+}
+
+.project_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project_description {
+    font-size: 18px
 }
