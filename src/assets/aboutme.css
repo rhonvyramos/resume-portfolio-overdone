@@ -2,8 +2,6 @@
     height: calc(100% - 10px);
     width: calc(100% - 10px);
 
-    background-color: lightcoral;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +9,7 @@
 
 #aboutme_contents {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     height: 100%;
@@ -19,9 +17,8 @@
 }
 
 .aboutme_content {
-    background-color: purple;
     height: calc(100% - 10px);
-    width: calc(50% - 5px);
+    width: calc(35% - 5px);
 
     display: flex;
     flex-direction: column;
