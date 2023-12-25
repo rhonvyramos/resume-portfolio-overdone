@@ -18,7 +18,7 @@
 
     text-align: center;
 
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-.project_box {
+#software_projects a {
     height: 25%;
     width: calc(100% - 10px);
 
@@ -42,6 +42,30 @@
 
     display: flex;
     justify-content: center;
+
+    transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+#software_projects a:hover {
+    box-shadow: 5px 5px 5px;
+    transform: translateY(-5px);  
+}
+
+#software_projects a:active {
+    background-color: darkblue;
+}
+
+#software_projects a:visited {
+    text-decoration: none;
+}
+
+.project_box {
+    width: 50%;
+    height: 100%; 
+    display: flex;
 }
 
 .project_image {
