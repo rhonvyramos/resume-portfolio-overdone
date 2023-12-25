@@ -22,4 +22,13 @@
     background-color: purple;
     height: calc(100% - 10px);
     width: calc(50% - 5px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme_images {
+
 }
