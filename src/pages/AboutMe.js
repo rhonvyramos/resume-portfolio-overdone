@@ -33,7 +33,9 @@ export default function AboutMe() {
                             Welcome to my profile! 
                             My name is Rhon Vincent Ramos and 
                             I am a recent graduate of the George Washington 
-                            Full Stack Developer Coding Bootcamp!
+                            Full Stack Developer Coding Bootcamp!<br/><br/>
+                            You can take a look around my profile by selecting the tabs above
+                            or exploring the links in the footer below.
                         </div>
                     </div>
                 </div>

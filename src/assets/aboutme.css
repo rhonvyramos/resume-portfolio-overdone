@@ -32,3 +32,16 @@
 #aboutme_images {
 
 }
+
+#image_software {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#text_description {
+    text-align: center;
+
+    font-size: 36px;
+}
