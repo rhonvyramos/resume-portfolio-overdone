@@ -1,0 +1,45 @@
+#component_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#footer_contents {
+    width: 75%;
+}
+
+#contact_elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact_elements p {
+    font-size: 24px;
+    font-weight: bold;
+
+    border-style: solid;
+    padding: 5px;
+
+    transition: box-shadow 0.3s ease-in;
+}
+
+#contact_elements a {
+    text-decoration: none;
+    color: inherit;
+
+    transition: transform 0.3s ease-in;
+}
+
+#contact_elements p:hover {
+    box-shadow: 5px 5px 5px;
+}
+
+#contact_elements a:hover {
+    text-decoration: none;
+    color: inherit;
+
+    transform: translateY(-5px);
+}
+

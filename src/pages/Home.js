@@ -3,9 +3,10 @@ import "../assets/home.css"
 
 // importing components
 import NavBar from "../components/NavBar/index.js";
+import Footer from "../components/ContactBar/index.js"
 
 // importing browserRouter
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // importing pages
 import AboutMe from "./AboutMe.js";
@@ -30,7 +31,9 @@ export default function Home() {
                             </Routes>
                         </div>
                     </Router>
-                    <div id="home_footer" className="home_element"></div>
+                    <div id="home_footer" className="home_element">
+                        <Footer />
+                    </div>
                 </div>
             </div>
         </section>
