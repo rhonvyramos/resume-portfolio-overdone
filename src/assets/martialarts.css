@@ -17,9 +17,23 @@
 }
 
 #martialarts_image, #martialarts_text {
-    width: 45%;
+    width: 48%;
+    height: 90%;
 }
 
 #martialarts_text {
     text-align: justify;
+
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+
+    padding: 10px;
+}
+
+#martialarts_image {
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
 }
