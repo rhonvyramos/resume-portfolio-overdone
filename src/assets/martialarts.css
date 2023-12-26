@@ -3,4 +3,23 @@
     width: calc(100% - 10px);
 
     background-color: yellow;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#martialarts_contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#martialarts_image, #martialarts_text {
+    width: 45%;
+}
+
+#martialarts_text {
+    text-align: justify;
 }
