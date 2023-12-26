@@ -2,8 +2,6 @@
     height: calc(100% - 10px);
     width: calc(100% - 10px);
 
-    background-color: yellow;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;

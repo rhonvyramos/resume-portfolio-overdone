@@ -26,6 +26,7 @@
     transition: box-shadow 0.3s ease-in, transform 0.3s ease-in;
 
     color:black;
+    background-color: white;
 }
 
 #contact_elements a {

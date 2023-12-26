@@ -48,6 +48,8 @@
 
     text-decoration: none;
     color: inherit;
+
+    background-color: white;
 }
 
 #software_projects a:hover {
