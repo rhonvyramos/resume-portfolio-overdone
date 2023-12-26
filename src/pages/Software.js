@@ -7,6 +7,14 @@ import character_creator_prev from "../assets/character_creator_prev.png"
 import ufree_prev from "../assets/ufree_prev.png"
 import libelnews_prev from "../assets/libelnews_prev.png"
 
+import html_icon from "../assets/html_icon.png";
+import css_icon from "../assets/css3_icon.png";
+import js_icon from "../assets/js_icon.png";
+import rest_icon from "../assets/rest_icon.png"
+import mysql_icon from "../assets/mysql_icon.png"
+import mongodb_icon from "../assets/mongodb_icon.png"
+import apollo_icon from "../assets/apollo_icon.png"
+
 export default function Software() {
     return(
         <FadeIn inProp={true}>
@@ -20,6 +28,13 @@ export default function Software() {
                             <div className="project_box">
                                 <div className="project_image">
                                     <img src={ufree_prev} alt="ufree" height={"96px"} width={"96px"} />
+                                    <div id="project_tech">
+                                        <img src={html_icon} alt="html" height={"30%"} width={"30%"} />
+                                        <img src={css_icon} alt="css" height={"30%"} width={"30%"} />
+                                        <img src={js_icon} alt="js" height={"30%"} width={"30%"} />
+                                        <img src={mongodb_icon} alt="mongodb" height={"30%"} width={"30%"} />
+                                        <img src={apollo_icon} alt="apollo" height={"30%"} width={"30%"} />
+                                    </div>
                                 </div>
                                 <div className="project_text">
                                     <p className="project_title">
@@ -35,6 +50,12 @@ export default function Software() {
                             <div className="project_box">
                                 <div className="project_image">
                                     <img src={character_creator_prev} alt="charactercreate" height={"96px"} width={"96px"} />
+                                    <div id="project_tech">
+                                        <img src={html_icon} alt="html" height={"30%"} width={"30%"} />
+                                        <img src={css_icon} alt="css" height={"30%"} width={"30%"} />
+                                        <img src={js_icon} alt="js" height={"30%"} width={"30%"} />
+                                        <img src={mysql_icon} alt="mysql" height={"30%"} width={"30%"} />
+                                    </div>
                                 </div>
                                 <div className="project_text">
                                     <p className="project_title">
@@ -50,6 +71,12 @@ export default function Software() {
                             <div className="project_box">
                                 <div className="project_image">
                                     <img src={libelnews_prev} alt="libel" height={"96px"} width={"96px"} />
+                                    <div id="project_tech">
+                                        <img src={html_icon} alt="html" height={"30%"} width={"30%"} />
+                                        <img src={css_icon} alt="css" height={"30%"} width={"30%"} />
+                                        <img src={js_icon} alt="js" height={"30%"} width={"30%"} />
+                                        <img src={rest_icon} alt="rest" height={"30%"} width={"30%"} />
+                                    </div>
                                 </div>
                                 <div className="project_text">
                                     <p className="project_title">
