@@ -34,7 +34,7 @@
 
 #software_projects a {
     height: 25%;
-    width: calc(100% - 10px);
+    width: 55%;
 
     margin-top: 5px;
 
@@ -42,7 +42,7 @@
     border-radius: 10px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
     transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
 
@@ -64,7 +64,7 @@
 }
 
 .project_box {
-    width: 50%;
+    width: 75%;
     height: 100%; 
     display: flex;
 }
@@ -80,11 +80,14 @@
 
 .project_image img {
     width: 25%;
+    height: 65%;
 }
 
 .project_text {
     width: 50%;
     height: 100%;
+
+    text-align: justify;
 }
 
 .project_box p {
@@ -92,12 +95,12 @@
 }
 
 .project_title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .project_description {
-    font-size: 18px
+    font-size: 14px
 }
 
 #project_tech {
