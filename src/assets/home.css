@@ -17,7 +17,7 @@
     height: 98vh;
     width: 99vw;
 
-    background-color: darkblue;
+    background-color: black;
 }
 
 #home_margin {
@@ -32,7 +32,7 @@
 }
 
 .home_element {
-    background-color: lightblue;
+    background-color: white;
     width: 100%;
 
     display: flex;
