@@ -47,6 +47,9 @@
 }
 
 #contact_elements p:active {
-    background-color: darkblue;
+    box-shadow: 5px 5px 5px black;
+    background-color: black;
+    color: white;
+    border-color: black;
 }
 
