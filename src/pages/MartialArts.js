@@ -3,6 +3,7 @@ import FadeIn from "../components/FadeIn";
 import "../assets/martialarts.css"
 import onekickma from "../assets/onekickma.jpg"
 import vamai from "../assets/vamai.jpg"
+import andrewgause from "../assets/andrewgause.png"
 
 export default function MartialArts() {
     return(
@@ -10,8 +11,9 @@ export default function MartialArts() {
             <section id="page_martialarts">
                 <div id="martialarts_contents">
                     <div id="martialarts_image">
-                        <img src={onekickma} alt="onekickma" height={"128px"} width={"128px"} />
+                        <img src={onekickma} alt="onekickma" height={"200px"} width={"200px"} />
                         <img src={vamai} alt="vamai" height={"128px"} width={"128px"} />
+                        <img src={andrewgause} alt="andrewgause" height={"140px"} width={"200px"} />
                     </div>
                     <div id="martialarts_text">
                         <p>
