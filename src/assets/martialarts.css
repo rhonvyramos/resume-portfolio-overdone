@@ -34,4 +34,12 @@
     border-radius: 10px;
     background-color: white;
     padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#martialarts_image img {
+    margin: 10px;
 }
