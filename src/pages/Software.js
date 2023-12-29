@@ -14,6 +14,7 @@ import rest_icon from "../assets/rest_icon.png"
 import mysql_icon from "../assets/mysql_icon.png"
 import mongodb_icon from "../assets/mongodb_icon.png"
 import apollo_icon from "../assets/apollo_icon.png"
+import react_icon from "../assets/react_icon.png"
 
 export default function Software() {
     return(
@@ -32,6 +33,7 @@ export default function Software() {
                                         <img src={html_icon} alt="html" height={"30%"} width={"30%"} />
                                         <img src={css_icon} alt="css" height={"30%"} width={"30%"} />
                                         <img src={js_icon} alt="js" height={"30%"} width={"30%"} />
+                                        <img src={react_icon} alt="react" height={"30%"} width={"30%"} />
                                         <img src={mongodb_icon} alt="mongodb" height={"30%"} width={"30%"} />
                                         <img src={apollo_icon} alt="apollo" height={"30%"} width={"30%"} />
                                     </div>
@@ -54,6 +56,7 @@ export default function Software() {
                                         <img src={html_icon} alt="html" height={"30%"} width={"30%"} />
                                         <img src={css_icon} alt="css" height={"30%"} width={"30%"} />
                                         <img src={js_icon} alt="js" height={"30%"} width={"30%"} />
+                                        <img src={react_icon} alt="react" height={"30%"} width={"30%"} />
                                         <img src={mysql_icon} alt="mysql" height={"30%"} width={"30%"} />
                                     </div>
                                 </div>

@@ -7,6 +7,8 @@ import js_icon from "../assets/js_icon.png";
 import mysql_icon from "../assets/mysql_icon.png"
 import mongodb_icon from "../assets/mongodb_icon.png"
 import apollo_icon from "../assets/apollo_icon.png"
+import swift_icon from "../assets/swift_icon.png"
+import react_icon from "../assets/react_icon.png"
 
 import FadeIn from "../components/FadeIn";
 
@@ -23,9 +25,11 @@ export default function AboutMe() {
                             <img src={html_icon} alt="html" height={"60px"} width={"60px"} />
                             <img src={css_icon} alt="css" height={"60px"} width={"60px"} />
                             <img src={js_icon} alt="javascript" height={"60px"} width={"60px"} />
+                            <img src={react_icon} alt="react" height={"60px"} width={"60px"} />
                             <img src={mysql_icon} alt="mysql" height={"60px"} width={"60px"} />
                             <img src={mongodb_icon} alt="mongodb" height={"60px"} width={"60px"} />
                             <img src={apollo_icon} alt="apollo" height={"60px"} width={"60px"} />
+                            <img src={swift_icon} alt="swift" height={"60px"} width={"60px"} />
                         </div>
                     </div>
                     <div id="aboutme_text" className="aboutme_content">
