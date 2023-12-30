@@ -35,9 +35,11 @@ export default function AboutMe() {
                     <div id="aboutme_text" className="aboutme_content">
                         <div id="text_description">
                             Welcome to my profile! 
-                            My name is Rhon Vincent Ramos and 
-                            I am a recent graduate of the George Washington 
-                            Full Stack Developer Coding Bootcamp!<br/><br/>
+                            My name is Rhon Vincent Ramos! I am an iOS Developer, 
+                            a holder of a Bachelor's Degree in Information Science 
+                            from the University of Maryland,
+                            and a graduate of the George Washington 
+                            Full Stack Web Developer Coding Bootcamp!<br/><br/>
                             You can take a look around my profile by selecting the tabs above
                             or exploring the links in the footer below.
                         </div>
