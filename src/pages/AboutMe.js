@@ -18,7 +18,7 @@ export default function AboutMe() {
 
     const handleMouseOver = (e) => {
         const alt = e.target.alt;
-        setAltText("This is " + alt + ".");
+        setAltText(alt);
     }
 
     const handleMouseLeave = (e) => {
@@ -34,10 +34,10 @@ export default function AboutMe() {
                             <img src={rv_photo} alt="me" height={"250px"} width={"420px"} />
                         </div>
                         <div id="image_software">
-                            <img src={html_icon} alt="HTML" height={"60px"} width={"60px"}
+                            <img src={html_icon} alt="HTML5" height={"60px"} width={"60px"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={css_icon} alt="CSS" height={"60px"} width={"60px"}
+                            <img src={css_icon} alt="CSS3" height={"60px"} width={"60px"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
                             <img src={js_icon} alt="Javascript" height={"60px"} width={"60px"} 
