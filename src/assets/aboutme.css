@@ -33,6 +33,20 @@
     width: 50%;
 }
 
+#image_software img {
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 2px;
+
+    transition: box-shadow 0.3s ease-in, transform 0.3s ease-in;
+}
+
+#image_software img:hover {
+    box-shadow: 5px 5px 5px;
+    transform: translateY(-5px);
+}
+
 #text_description {
     text-align: center;
 
