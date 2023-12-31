@@ -9,6 +9,7 @@ import mongodb_icon from "../assets/mongodb_icon.png"
 import apollo_icon from "../assets/apollo_icon.png"
 import swift_icon from "../assets/swift_icon.png"
 import react_icon from "../assets/react_icon.png"
+import rest_icon from "../assets/rest_icon.png"
 
 import FadeIn from "../components/FadeIn";
 
@@ -44,6 +45,9 @@ export default function AboutMe() {
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
                             <img src={react_icon} alt="React" height={"60px"} width={"60px"} 
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={rest_icon} alt="REST" height={"60px"} width={"60px"} 
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
                             <img src={mysql_icon} alt="MySql" height={"60px"} width={"60px"} 

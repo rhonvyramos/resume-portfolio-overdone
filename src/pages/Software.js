@@ -22,7 +22,8 @@ export default function Software() {
             <section id="page_software">
                 <div id="software_contents">
                     <div id="software_title">
-                        <p>Below are my most recent projects. These were developed in-collaboration with other well-experienced developers.</p>
+                        <p>Below are my most recent projects related to full-stack web development. 
+                            These were developed in-collaboration with other well-experienced developers.</p>
                     </div>
                     <div id="software_projects">
                         <a href="https://github.com/hafsah1976/uFree" target="_blank" rel="noopener noreferrer">
