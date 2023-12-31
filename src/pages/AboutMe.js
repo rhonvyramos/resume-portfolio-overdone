@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/aboutme.css"
 import rv_photo from "../assets/Ramos_RhonVincent.JPG"
 import html_icon from "../assets/html_icon.png";
@@ -13,6 +13,18 @@ import react_icon from "../assets/react_icon.png"
 import FadeIn from "../components/FadeIn";
 
 export default function AboutMe() {
+
+    const [altText, setAltText] = useState('');
+
+    const handleMouseOver = (e) => {
+        const alt = e.target.alt;
+        setAltText("This is " + alt + ".");
+    }
+
+    const handleMouseLeave = (e) => {
+        setAltText('');
+    }
+
     return(
         <FadeIn inProp={true}>
             <section id="page_aboutme">
@@ -22,14 +34,33 @@ export default function AboutMe() {
                             <img src={rv_photo} alt="me" height={"250px"} width={"420px"} />
                         </div>
                         <div id="image_software">
-                            <img src={html_icon} alt="html" height={"60px"} width={"60px"} />
-                            <img src={css_icon} alt="css" height={"60px"} width={"60px"} />
-                            <img src={js_icon} alt="javascript" height={"60px"} width={"60px"} />
-                            <img src={react_icon} alt="react" height={"60px"} width={"60px"} />
-                            <img src={mysql_icon} alt="mysql" height={"60px"} width={"60px"} />
-                            <img src={mongodb_icon} alt="mongodb" height={"60px"} width={"60px"} />
-                            <img src={apollo_icon} alt="apollo" height={"60px"} width={"60px"} />
-                            <img src={swift_icon} alt="swift" height={"60px"} width={"60px"} />
+                            <img src={html_icon} alt="HTML" height={"60px"} width={"60px"}
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={css_icon} alt="CSS" height={"60px"} width={"60px"}
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={js_icon} alt="Javascript" height={"60px"} width={"60px"} 
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={react_icon} alt="React" height={"60px"} width={"60px"} 
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={mysql_icon} alt="MySql" height={"60px"} width={"60px"} 
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={mongodb_icon} alt="MongoDB" height={"60px"} width={"60px"}
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={apollo_icon} alt="Apollo" height={"60px"} width={"60px"} 
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                            <img src={swift_icon} alt="Swift" height={"60px"} width={"60px"} 
+                            onMouseOver={handleMouseOver}
+                            onMouseLeave={handleMouseLeave} />
+                        </div>
+                        <div id="image_software_name">
+                            <p>{altText}</p>
                         </div>
                     </div>
                     <div id="aboutme_text" className="aboutme_content">
@@ -45,6 +76,9 @@ export default function AboutMe() {
                         </div>
                     </div>
                 </div>
+                <script>
+                    
+                </script>
             </section>
         </FadeIn>
     )

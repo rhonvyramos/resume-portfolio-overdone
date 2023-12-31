@@ -30,7 +30,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 25%;
     width: 50%;
+    position: absolute;
+    bottom: 25%;
 }
 
 #image_software img {
@@ -47,8 +50,15 @@
     transform: translateY(-5px);
 }
 
+#image_software_name {
+    height: 25%;
+}
+
+#image_software_name p {
+    font-weight: bold;
+}
+
 #text_description {
     text-align: center;
-
     font-size: 36px;
 }
