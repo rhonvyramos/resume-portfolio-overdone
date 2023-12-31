@@ -43,3 +43,10 @@
 #martialarts_image img {
     margin: 10px;
 }
+
+#martialarts_logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -4,6 +4,7 @@ import "../assets/martialarts.css"
 import onekickma from "../assets/onekickma.jpg"
 import vamai from "../assets/vamai.jpg"
 import andrewgause from "../assets/andrewgause.png"
+import me_uniform from "../assets/me_lol.JPG"
 
 export default function MartialArts() {
     return(
@@ -11,9 +12,15 @@ export default function MartialArts() {
             <section id="page_martialarts">
                 <div id="martialarts_contents">
                     <div id="martialarts_image">
-                        <img src={onekickma} alt="onekickma" height={"200px"} width={"200px"} />
-                        <img src={vamai} alt="vamai" height={"128px"} width={"128px"} />
-                        <img src={andrewgause} alt="andrewgause" height={"140px"} width={"200px"} />
+                        <img src={me_uniform} alt="me_uniform"  height={"500px"} width={"350px"}  />
+                        <div id="martialarts_logos">
+                            <img src={vamai} alt="vamai" height={"128px"} width={"128px"} />
+                            2006 to 2011
+                            <img src={onekickma} alt="onekickma" height={"200px"} width={"200px"} />
+                            2012 to 2019
+                            <img src={andrewgause} alt="andrewgause" height={"140px"} width={"200px"} />
+                            2023 to present
+                        </div>
                     </div>
                     <div id="martialarts_text">
                         <p>
