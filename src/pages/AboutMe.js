@@ -35,31 +35,31 @@ export default function AboutMe() {
                             <img src={rv_photo} alt="me" height={"250px"} width={"420px"} />
                         </div>
                         <div id="image_software">
-                            <img src={html_icon} alt="HTML5" height={"60px"} width={"60px"}
+                            <img src={html_icon} alt="HTML5" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={css_icon} alt="CSS3" height={"60px"} width={"60px"}
+                            <img src={css_icon} alt="CSS3" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={js_icon} alt="Javascript" height={"60px"} width={"60px"} 
+                            <img src={js_icon} alt="Javascript" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={react_icon} alt="React" height={"60px"} width={"60px"} 
+                            <img src={react_icon} alt="React" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={rest_icon} alt="REST" height={"60px"} width={"60px"} 
+                            <img src={rest_icon} alt="REST" height={"20%"} 
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={mysql_icon} alt="MySql" height={"60px"} width={"60px"} 
+                            <img src={mysql_icon} alt="MySql" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={mongodb_icon} alt="MongoDB" height={"60px"} width={"60px"}
+                            <img src={mongodb_icon} alt="MongoDB" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={apollo_icon} alt="Apollo" height={"60px"} width={"60px"} 
+                            <img src={apollo_icon} alt="Apollo" height={"20%"} 
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
-                            <img src={swift_icon} alt="Swift" height={"60px"} width={"60px"} 
+                            <img src={swift_icon} alt="Swift" height={"20%"}
                             onMouseOver={handleMouseOver}
                             onMouseLeave={handleMouseLeave} />
                         </div>

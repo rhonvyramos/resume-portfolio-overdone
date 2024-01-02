@@ -60,5 +60,6 @@
 
 #text_description {
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
+    height: 50%;
 }
