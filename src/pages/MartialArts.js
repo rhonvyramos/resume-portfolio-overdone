@@ -12,13 +12,13 @@ export default function MartialArts() {
             <section id="page_martialarts">
                 <div id="martialarts_contents">
                     <div id="martialarts_image">
-                        <img src={me_uniform} alt="me_uniform"  height={"500px"} width={"350px"}  />
+                        <img src={me_uniform} alt="me_uniform" height={"50%"}/>
                         <div id="martialarts_logos">
-                            <img src={vamai} alt="vamai" height={"128px"} width={"128px"} />
+                            <img src={vamai} alt="vamai"  height={"35%"}/>
                             2006 to 2011
-                            <img src={onekickma} alt="onekickma" height={"200px"} width={"200px"} />
+                            <img src={onekickma} alt="onekickma" height={"35%"} width={"35%"} />
                             2012 to 2019
-                            <img src={andrewgause} alt="andrewgause" height={"140px"} width={"200px"} />
+                            <img src={andrewgause} alt="andrewgause" height={"35%"} />
                             2023 to present
                         </div>
                     </div>
