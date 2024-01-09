@@ -27,6 +27,8 @@
     background-color: white;
 
     padding: 10px;
+
+    overflow: auto;
 }
 
 #martialarts_image {
@@ -49,4 +51,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1380px) {
+    #martialarts_logos {
+        height: 75%;
+    }
 }
