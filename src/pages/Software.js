@@ -18,26 +18,6 @@ import react_icon from "../assets/react_icon.png"
 import swiftui_icon from "../assets/swift_icon.png"
 
 // unused project tab
-/*
-    <a href="https://github.com/rhonvyramos/DessertDetailsViews" target="_blank" rel="noopener noreferrer">
-        <div className="project_box">
-            <div className="project_image">
-                <img src={swiftui_icon} alt="ufree" height={"96px"} width={"96px"} />
-                <div id="project_tech">
-                    <img src={swiftui_icon} alt="swiftui" height={"30%"} width={"30%"} />
-                </div>
-            </div>
-            <div className="project_text">
-                <p className="project_title">
-                    Mobile App: MealDB Desserts List Grabber
-                </p>
-                <p className="project_description">
-                    A simple mobile application that calls the MealDB API and retrieves all results from its Desserts category.
-                </p>
-            </div>
-        </div>
-    </a>
-*/
 
 export default function Software() {
     return(
@@ -49,7 +29,24 @@ export default function Software() {
                             These were developed in-collaboration with other well-experienced developers.</p>
                     </div>
                     <div id="software_projects">
-
+                        <a href="https://github.com/rhonvyramos/MealDBInteractor" target="_blank" rel="noopener noreferrer">
+                            <div className="project_box">
+                                <div className="project_image">
+                                    <img src={swiftui_icon} alt="ufree" height={"96px"} width={"96px"} />
+                                    <div id="project_tech">
+                                        <img src={swiftui_icon} alt="swiftui" height={"30%"} width={"30%"} />
+                                    </div>
+                                </div>
+                                <div className="project_text">
+                                    <p className="project_title">
+                                        Mobile App: MealDB Desserts List Grabber
+                                    </p>
+                                    <p className="project_description">
+                                        A simple mobile application that calls the MealDB API and retrieves all results from its Desserts category.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
                         <a href="https://github.com/hafsah1976/uFree" target="_blank" rel="noopener noreferrer">
                             <div className="project_box">
                                 <div className="project_image">
