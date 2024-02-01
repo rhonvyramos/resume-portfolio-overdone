@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import rvr_pdf from "../../assets/RVRamosResume.pdf"
+import rvr_pdf from "../../assets/RV_RamosResume.pdf"
 
 export default function Footer() {
     return (
